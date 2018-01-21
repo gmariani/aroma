@@ -1,0 +1,14 @@
+{
+	"appName": {
+		"message": "Aroma", // CourseVector Aroma
+		"description": "The name (maximum of 45 characters) is the primary identifier of the extension and is a required field. (Install dialog, Extension management UI, Chrome Web Store)"
+	},
+	"appShortName": {
+		"message": "Aroma",
+		"description": "The short_name (maximum of 12 characters recommended) is a short version of the extensions name. (App launcher, New Tab page)"
+	},
+	"appDesc": {
+		"message": "Organize and track your favorite recipes!", 
+		"description": "The description of the application, displayed in the web store."
+	}
+}

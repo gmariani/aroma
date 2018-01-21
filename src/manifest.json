@@ -1,0 +1,47 @@
+{
+	// Required
+	"app": {
+		"background": {
+			// Optional
+			"scripts": ["js/background.js"]
+		}
+	},
+	"name": "__MSG_appName__",
+	//"short_name": "__MSG_appShortName__",
+	"version": "3.0.0",
+	"offline_enabled": true,
+	"minimum_chrome_version": "23",
+	"manifest_version": 2,
+	
+	// Recommended
+	"default_locale": "en",
+	"description": "__MSG_appDesc__",
+	"icons": {
+		"16": "fav16.png",
+		"48": "fav48.png",
+		"128": "fav128.png" 
+	},
+	
+	// Optional
+	"author": "Gabriel Mariani",
+	/*"file_handlers": {
+		"any": {
+			"extensions": [
+				"text/rcpe"
+			],
+			"title": "Any file type editor"
+		}
+	},*/
+	
+	// Phase 1: store locally
+	// Phase 2: sync via dropbox https://www.dropbox.com/developers/datastore/tutorial/js
+	// Phase 3: sync via google drive
+	"permissions": [
+		"app.runtime",
+		"app.window",
+		"storage",
+		"unlimitedStorage",
+		"fileSystem"
+		//"syncFileSystem"
+	]
+}

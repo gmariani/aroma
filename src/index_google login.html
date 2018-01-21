@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Aroma - Helping cook up something great</title>
+	<meta name="description" content="TODO">
+	<meta name="author" content="">
+	<meta name="generator" content="Notepad++">
+	<meta name="google-signin-client_id" content="734297356410-bgg4okehukl4a29cc3voccg6s6t4kfg9.apps.googleusercontent.com">
+	<meta name="google-signin-cookiepolicy" content="none" />
+	
+	<!-- Open Graph -->
+	<meta property="og:url" content="http://apps.coursevector.com/aroma">
+	<meta property="og:description" content="TODO">
+	<meta property="og:site_name" content="Aroma">
+	<meta property="og:image" content="http://apps.coursevector.com/aroma/images/screenshots/main.jpg">
+	<meta property="og:title" content="Aroma - Helping cook up something great">
+	
+	<!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@CourseVector1">
+    <meta name="twitter:creator" content="@CourseVector1">
+    <meta name="twitter:title" content="Aroma - Helping cook up something great">
+    <meta name="twitter:description" content="TODO">
+    <meta name="twitter:image:src" content="https://www.inoreader.com/images/screenshots/main.jpg">
+    <!--<meta name="twitter:app:android" content="com.innologica.inoreader">
+    <meta name="twitter:app:id:ipad" content="892355414">
+    <meta name="twitter:app:id:iphone" content="892355414">-->
+
+	<!-- Google+ stuff -->
+	<meta itemprop="name" content="Aroma - Helping cook up something great">
+	<meta itemprop="description" content="TODO">
+	<meta itemprop="image" content="https://www.inoreader.com/images/screenshots/main.jpg">
+	
+	<!-- Icons for iOS desktop shortcuts -->
+	<link rel="apple-touch-icon" href="/images/icons/xapple-touch-iphone.png.pagespeed.ic.-bEiwfH5Qd.png"/>
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/icons/xapple-touch-ipad.png.pagespeed.ic.8qWKjDGNcm.png"/>
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/icons/xapple-touch-iphone4.png.pagespeed.ic.NfzrxQ6Yf1.png"/>
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/icons/xapple-touch-ipad-retina.png.pagespeed.ic.qD9y5WTgZ1.png"/>
+	
+	<!-- Default favicon in 16x16px and 32x32px -->
+	<link rel="icon" href="/favicon.ico">
+
+	<!-- Microsoft related stuff -->
+	<meta name="application-name" content="Inoreader">
+	<meta name="msapplication-tooltip" content="Inoreader">
+	<meta name="msapplication-starturl" content="/">
+	<meta name="msapplication-TileColor" content="#FEFEFE">
+	<meta name="msapplication-TileImage" content="https://www.inoreader.com/images/icons/512x512_shadow.png">
+	<meta name="msvalidate.01" content="3EE9D14D34D7E6F9542238EAA38F2BD6">
+
+	<!-- iOS Safari Full screen -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<!-- Chrome Android Full screen -->
+	<meta name="mobile-web-app-capable" content="yes">
+
+	
+    <!-- Bootstrap -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+     <div class="container">
+
+      <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+	  
+	  <div class="g-signin2" data-onsuccess="onSignIn" data-cookiepolicy="none"></div>
+
+    </div> <!-- /container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script>
+	function onSignIn(googleUser) {
+		var profile = googleUser.getBasicProfile();
+		console.log('ID: ' + profile.getId());
+		console.log('Name: ' + profile.getName());
+		console.log('Image URL: ' + profile.getImageUrl());
+		console.log('Email: ' + profile.getEmail());
+	}
+	</script>
+  </body>
+</html>
