@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<project basedir="." name="Compress and Concatenate CSS and JS" default="initialize">
+
+	<property name="src" location="${basedir}\src"/>
+	<property name="build" location="${basedir}\build"/>
+	<property name="dist"  location="${basedir}\dist"/>
+
+	<target name="concat_css">
+		<concat destfile="${dist}\css\style.css">
+			<filelist id="files" dir="${src}\css">
+				<file name="normalize.css" /> 
+				<file name="main.css" /> 
+				<file name="shadowbox.css" /> 
+			</filelist>
+		</concat>
+	</target>
+
+	<target name="compress_css" depends="concat_css">
+		<property name="file" value="${dist}\css\style" />
+		<property name="ext" value="css" />
+		<echo>${file}.${ext}</echo> 
+		<java jar="${build}/yuicompressor-2.4.7.jar" fork="true">
+			<arg line="--line-break 0"/>
+			<arg value="${file}.${ext}" />
+			<arg value="-o" />
+			<arg value="${file}.min.${ext}" />
+		</java>
+		
+	</target>
+
+	<target name="concat_js">
+		<concat destfile="${dist}\js\script.js">
+			<filelist id="files" dir="${src}\js">
+				<!--<file name="vendor/plugins/CSSPlugin.min.js" />
+				<file name="vendor/easing/EasePack.min.js" />
+				<file name="vendor/TweenLite.min.js" />
+				<file name="vendor/jquery.simplemodal-1.4.4.js" />
+				<file name="vendor/jquery.gsap.min.js" />-->
+
+				<file name="vendor/shadowbox.js" />
+				<file name="vendor/shadowbox/intro.js" />
+				<file name="vendor/shadowbox/core.js" />
+				<file name="vendor/shadowbox/load.js" />
+				<file name="vendor/shadowbox/plugins.js" />
+				<file name="vendor/shadowbox/cache.js" />
+				<file name="vendor/shadowbox/players/html.js" />
+				<file name="vendor/shadowbox/players/iframe.js" />
+				<file name="vendor/shadowbox/players/img.js" />
+				<file name="vendor/shadowbox/skin.js" />
+				<file name="vendor/shadowbox/outro.js" />
+
+				<file name="plugins.js" />
+				<file name="main.js" />
+				<file name="model\RecipeProxy.js" />
+				<file name="view\HeaderMediator.js" />
+				<file name="view\EditScreenMediator.js" />
+				<file name="view\DisplayScreenMediator.js" />
+				<file name="view\ModalMediator.js" />
+				<file name="view\ModalImageMediator.js" />
+			</filelist>
+		</concat>
+	</target>
+
+	<target name="compress_js" depends="concat_js">
+		<property name="file" value="${dist}\js\script" />
+		<property name="ext" value="js" />
+		<echo>${file}.${ext}</echo> 
+		<java jar="${build}\yuicompressor-2.4.7.jar" fork="true">
+			<arg value="${file}.${ext}" />
+			<arg value="-o" />
+			<arg value="${file}.min.${ext}" />
+		</java>
+	</target>
+
+	<target name="compress">
+		<java jar="${build}\yuicompressor-2.4.7.jar" fork="true">
+			<!-- <arg line="- -line-break 0"/> -->
+			<arg value="${file}.${ext}" />
+			<!--<srcfile />-->
+			<arg value="-o" />
+			<arg value="${file}.min.${ext}" />
+			<!--<mapper type="glob" from="*.${ext}" to="*-min.${ext}"/>
+			<targetfile/>-->
+		</java>
+		<echo>${file}.${ext}</echo> 
+	</target>
+
+	<!-- Minify HTML -->
+	<target name="compress_html">
+		<apply executable="java" parallel="false">
+			<fileset dir="${src}" includes="*.html"></fileset>
+			<arg value="-jar"/>
+			<arg path="${build}\htmlcompressor-1.5.3.jar"/>
+			<arg line="--type html"/>
+			<srcfile/>
+			<arg value="-o"/>
+			<mapper type="glob" from="*" to="${dist}\*"/>
+			<targetfile/>
+		</apply>
+	</target>
+
+	<!--<target name="upload_files" depends="initialize">
+		<ftp server="treasuredtruth.ca"
+			 userid="treasuredtruth_ca_admin"
+			 password="IB7ISDZKFQ"
+			 port="21"
+			 remotedir="/public_html"
+			 passive="yes"
+			 binary="no">
+			<fileset dir=".">
+				<include name="assets/*"   />
+				<include name="index.html" />
+			</fileset>
+		</ftp>
+	</target>-->
+
+	<target name="initialize" >
+		<mkdir dir="${dist}"/>
+		<mkdir dir="${dist}/js"/>
+		<mkdir dir="${dist}/css"/>
+		<mkdir dir="${dist}/img"/>
+
+		<!--<antcall target="compress_css" />-->
+		<antcall target="concat_css" />
+
+		<antcall target="compress_js"  />
+
+		<!--<antcall target="compress_html"  />-->
+		<copy file="${src}\index.html" todir="${dist}"/>
+
+		<echo>Done!</echo>
+
+		<sleep seconds="10"/>
+	</target>
+</project>

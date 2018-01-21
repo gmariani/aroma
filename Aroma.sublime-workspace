@@ -1,0 +1,653 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"SORT",
+				"SORT_RATING"
+			],
+			[
+				"modal",
+				"modalDialog"
+			],
+			[
+				"RE",
+				"RECIPE_REMOVE"
+			],
+			[
+				"recip",
+				"recipeList"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"No",
+				"Notifications"
+			],
+			[
+				"pxy",
+				"pxyRecipe"
+			],
+			[
+				"trans",
+				"transparent"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/js/main.js",
+			"settings":
+			{
+				"buffer_size": 11445,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 10269,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/model/RecipeProxy.js",
+			"settings":
+			{
+				"buffer_size": 5139,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/view/EditScreenMediator.js",
+			"settings":
+			{
+				"buffer_size": 4789,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/view/DisplayScreenMediator.js",
+			"settings":
+			{
+				"buffer_size": 8870,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/css/main.css",
+			"settings":
+			{
+				"buffer_size": 31911,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/view/ModalMediator.js",
+			"settings":
+			{
+				"buffer_size": 942,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/view/ModalImageMediator.js",
+			"settings":
+			{
+				"buffer_size": 596,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build.xml",
+			"settings":
+			{
+				"buffer_size": 4042,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Web Development/JPL/SESAT/sesats.org/trunk/assets/flash/SESATSX.sublime-workspace",
+		"/D/Web Development/PropsectMX/Morrison CHS/style.css",
+		"/D/Web Development/PropsectMX/Morrison CHS/index2.html",
+		"/D/Web Development/PropsectMX/Morrison CHS/sitemap.xml",
+		"/D/Web Development/PropsectMX/Morrison CHS/news/archive/2008/08_collating.htm",
+		"/D/Web Development/PropsectMX/Morrison CHS/news/archive/2008/08_packworld.htm",
+		"/D/Web Development/PropsectMX/Morrison CHS/index.html",
+		"/C/Users/Gabriel/Desktop/contact.php",
+		"/C/Users/Gabriel/Desktop/example-captcha.php",
+		"/C/Users/Gabriel/Desktop/webformmailer.php",
+		"/C/Users/Gabriel/Desktop/contact-error.html",
+		"/C/Users/Gabriel/Desktop/htaccess.txt",
+		"/C/Users/Gabriel/Desktop/contact.html",
+		"/D/Web Development/Projects/Aroma/2.0/src/com/coursevector/aroma/view/components/PopUp.as",
+		"/D/Web Development/Projects/Aroma/3.0/build.xml",
+		"/D/Web Development/Projects/Aroma/2.0/src/com/coursevector/aroma/view/PopUpMediator.as",
+		"/D/Web Development/Projects/Aroma/3.0/src/js/view/ModalMediator.js",
+		"/D/Web Development/Projects/Aroma/3.0/src/css/main.css",
+		"/D/Web Development/Projects/Aroma/3.0/src/js/view/HeaderMediator.js",
+		"/D/Web Development/CourseVector/CourseVector/3.0.0/wp-content/themes/style.css",
+		"/D/Web Development/Projects/Aroma/3.0/src/js/view/ModalMediator",
+		"/D/Web Development/Projects/Aroma/2.0/src/com/coursevector/aroma/controller/AppCommand.as",
+		"/D/Web Development/PropsectMX/KenseyNash/rsslib-knnews.php",
+		"/D/Web Development/Projects/Aroma/3.0/build/build.xml",
+		"/C/Users/Gabriel/Desktop/wp-config.php",
+		"/C/Users/Gabriel/Downloads/machform/machform/config.php",
+		"/D/Web Development/Projects/Aroma/3.0/dist/index.html",
+		"/D/Web Development/Projects/Aroma/3.0/compile.bat",
+		"/D/Web Development/Projects/Aroma/3.0/dist/js/script.js",
+		"/D/Web Development/Projects/Aroma/3.0/dist/js/script.min.js",
+		"/D/Web Development/Projects/Aroma/3.0/dist/css/style.min.css",
+		"/D/Web Development/Projects/Aroma/3.0/dist/css/style.css",
+		"/D/Web Development/Projects/Aroma/3.0/ant.properties",
+		"/C/Users/Gabriel/AppData/Local/Temp/7zE52C.tmp/build.xml",
+		"/C/Users/Gabriel/AppData/Local/Temp/7zEDC8.tmp/ant.properties",
+		"/D/Web Development/Projects/Aroma/3.0/source/build.xml",
+		"/D/Web Development/Projects/Aroma/3.0/js/main.js",
+		"/D/Web Development/Projects/Aroma/3.0/index.html",
+		"/D/Web Development/Projects/Aroma/3.0/css/main.css",
+		"/C/Users/Gabriel/Downloads/spam comments.txt",
+		"/C/Users/Gabriel/Downloads/blog.coursevector.com",
+		"/C/Users/Gabriel/Desktop/.htaccess",
+		"/C/Users/Gabriel/AppData/Local/Temp/7zE2A99.tmp/blog.coursevector.com",
+		"/D/Web Development/JPL/SESAT/sesats.org/trunk/assets/flash/com/sesats/model/UpdateAppManager.as",
+		"/D/Web Development/JPL/SESAT/10MOD/trunk/assets/flash/com/sesats/model/UpdateAppManager.as",
+		"/D/Web Development/JPL/SESAT/10MOD/trunk/assets/flash/ReadMe.txt",
+		"/D/Web Development/JPL/SESAT/10MOD/trunk/assets/flash/com/sesats/model/UserManager.as",
+		"/D/Web Development/JPL/SESAT/10MOD/trunk/assets/flash/com/sesats/model/LoginManager.as",
+		"/C/Users/Gabriel/Desktop/blog.coursevector.com",
+		"/D/Web Development/Projects/Aroma/2.0/src/com/coursevector/aroma/model/SQLProxy.as",
+		"/D/Web Development/Projects/Aroma/2.0/src/com/coursevector/aroma/controller/SQLCommand.as",
+		"/D/Web Development/Projects/Aroma/2.0/src/com/coursevector/aroma/ApplicationFacade.as",
+		"/D/Web Development/Projects/Aroma/2.0/src/com/coursevector/aroma/controller/EditCommand.as",
+		"/D/Web Development/Projects/Aroma/2.0/src/com/coursevector/aroma/view/DisplayScreenMediator.as",
+		"/D/Web Development/Projects/Aroma/2.0/src/com/coursevector/aroma/controller/DeleteCommand.as",
+		"/D/Web Development/Projects/Aroma/2.0/src/com/coursevector/aroma/view/HeaderMediator.as",
+		"/D/Web Development/JPL/SESAT/10MOD/trunk/src/SESATSXUK_Recert.xml",
+		"/D/Web Development/JPL/SESAT/sesats.org/trunk/src/SESATSX_Recert.xml",
+		"/D/Web Development/JPL/SESAT/sesats.org/trunk/assets/flash/com/sesats/model/UpdateDBManager.as",
+		"/D/Web Development/JPL/SESAT/sesats.org/trunk/assets/flash/com/sesats/model/UserManager.as",
+		"/C/Program Files (x86)/Adobe/Adobe Flash CS5/Common/Configuration/Players/AdobeAIR2_0.xml",
+		"/C/Windows.old/Users/Gabriel/AppData/Roaming/Microsoft/Crypto/RSA/S-1-5-21-2377502789-1726577853-1046423281-1001/7baadc93bbb140c5b4c1c2b840156838_c42609b4-dc94-40fb-954b-79dd7ab1c411"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open files>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"contact.h",
+			"redirect",
+			"error",
+			"divPicture",
+			"editing",
+			"img",
+			"shadowbox",
+			"ModalMediator",
+			" '';",
+			"recipeNote",
+			"gradient",
+			"important",
+			"height",
+			"moz",
+			"header",
+			"modalDialog",
+			".alert",
+			"onClickNote",
+			"note",
+			"sort",
+			"onsort",
+			"sort",
+			"sendnot",
+			"RECIPE_CHANGE",
+			"onModified",
+			"ulIngredients",
+			"form-recipe- > div",
+			"form-recipe-rating",
+			"setstars",
+			"class=\"rating-input\" ",
+			"toggle",
+			"rating-star",
+			"sort",
+			"modal",
+			"onClickNote",
+			"ALERT",
+			".ALERT",
+			"dispatchEvent",
+			"note",
+			"onClickNote",
+			"StarRating",
+			"stars",
+			"displayString",
+			"atleast",
+			"Please",
+			"saveRecipe",
+			"btnAddIng",
+			"updateListSelected",
+			"RECIPE_CHANGE",
+			"Picture",
+			"nav-button-add-pic",
+			"displayString",
+			".form-row.nowrap input",
+			".ingredient-list input, .form-row textarea, .form-row.nowrap input",
+			"screen-edit",
+			"border",
+			"border-right",
+			"#screen-edit section:first-child",
+			"nav-",
+			"ingredient-button-remove",
+			"button",
+			"displayString",
+			"length",
+			"getSelectedRecipes",
+			"liSelected",
+			"getSelectedRecipe",
+			"arrRecipes",
+			"selected",
+			"click",
+			"for",
+			"each",
+			"children",
+			"SAVE_EDIT",
+			"\\t    ",
+			"60.169.77.110",
+			"699",
+			"wp-comments-post.php",
+			"screen-display",
+			"starRating",
+			"removeClass",
+			"displayrecipe",
+			"medDisplayScreen",
+			"splice",
+			"addrecipe",
+			"SQL_FINISH",
+			"selectDBHandler",
+			"SQL_START",
+			"SQL_DELETE",
+			"deleteRecipe",
+			"onClickDelete",
+			"CONFIRM",
+			".CONFIRM",
+			"delete",
+			"objRecipe",
+			"getSelectedRecipes",
+			".DELETE",
+			"delete",
+			"confirm",
+			"logo",
+			"select",
+			"header",
+			"2s",
+			"hidden",
+			"::",
+			"transition",
+			"img",
+			"picture"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"updateSelected",
+			"0.5s"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/js/main.js",
+					"settings":
+					{
+						"buffer_size": 11445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5784,
+								5784
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2340.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/index.html",
+					"settings":
+					{
+						"buffer_size": 10269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8985,
+								8997
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2776.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/js/model/RecipeProxy.js",
+					"settings":
+					{
+						"buffer_size": 5139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1332,
+								1332
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 3362.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/js/view/EditScreenMediator.js",
+					"settings":
+					{
+						"buffer_size": 4789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								676,
+								686
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/js/view/DisplayScreenMediator.js",
+					"settings":
+					{
+						"buffer_size": 8870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3025,
+								3085
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1125.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/css/main.css",
+					"settings":
+					{
+						"buffer_size": 31911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5734,
+								5734
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3060.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/js/view/ModalMediator.js",
+					"settings":
+					{
+						"buffer_size": 942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								942
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/js/view/ModalImageMediator.js",
+					"settings":
+					{
+						"buffer_size": 596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "build.xml",
+					"settings":
+					{
+						"buffer_size": 4042,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								480,
+								450
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true
+}

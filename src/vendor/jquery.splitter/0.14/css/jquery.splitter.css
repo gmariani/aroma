@@ -1,0 +1,51 @@
+/* ==========================================================================
+   JQuery Spliter  | Copyright (C) 2010 Jakub Jankiewicz <http://jcubic.pl>
+   ========================================================================== */
+
+.spliter_panel {
+	position: relative;
+}
+.spliter_panel .vspliter {
+	background:url("../img/vgrabber.gif") no-repeat scroll center center rgba(0,0,0,0);
+    cursor: e-resize;
+    z-index:900;
+    width: 10px;
+	
+	-webkit-transition: background-color .25s;
+	   -moz-transition: background-color .25s;
+		 -o-transition: background-color .25s;
+			transition: background-color .25s;
+}
+.spliter_panel .vspliter:hover {
+	background-color:rgba(0,0,0,0.05);
+}
+
+.spliter_panel .hspliter {
+    background-color: #5F5F5F;
+    cursor: e-resize;
+    z-index: 800;
+    height: 10px;
+}
+.spliter_panel .vspliter, .spliter_panel .left_panel, .spliter_panel .right_panel,
+.spliter_panel .hspliter, .spliter_panel .top_panel, .spliter_panel .bottom_panel {
+    position: absolute;
+    overflow: auto;
+}
+.spliter_panel .vspliter, .spliter_panel .left_panel, .spliter_panel .right_panel {
+  height: 100%;
+}
+.spliter_panel .hspliter, .spliter_panel .top_panel, .spliter_panel .bottom_panel {
+  width: 100%;
+}
+.spliter_panel .top_panel, .spliter_panel .left_panel, .spliter_panel .vspliter {
+   top: 0;
+}
+.spliter_panel .top_panel, .spliter_panel .bottom_panel, .spliter_panel .left_panel, .spliter_panel .hspliter {
+   left: 0;
+}
+.spliter_panel .bottom_panel {
+   bottom: 0;
+}
+.spliter_panel .right_panel {
+   right: 0;
+}
